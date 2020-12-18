@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "nrofplaces": 101,
+        "exists": 4,
+        "screensize": "54000x32000"
+    },
+    {
+        "id": 2,
+        "nrofplaces": 102,
+        "exists": 4,
+        "screensize": "44000x32000"
+    },
+    {
+        "id": 3,
+        "nrofplaces": 103,
+        "exists": 4,
+        "screensize": "34000x32000"
+    }
+
+]

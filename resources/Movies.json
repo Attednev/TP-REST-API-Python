@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Megamind",
+        "id": 1,
+        "duration": 100,
+        "room": 1,
+        "starttime": "14:30",
+        "genre": "kids"
+    },
+    {
+        "name": "The Lion King",
+        "id": 2,
+        "duration": 200,
+        "room": 2,
+        "starttime": "16:10",
+        "genre": "kids"
+    }
+]
