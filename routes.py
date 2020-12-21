@@ -31,7 +31,7 @@ def get_movie_information(name):
     try:
         return build_message("movie", get_json_content("Movies", name, "name")), 201
     except IOError:
-        return "This movie in not played\n"
+        return jsonify({"message": "This movie in not played", "documentation": request.base_url}), 404
 
 
 @app.route('/rooms/<string:room_id>')
@@ -39,7 +39,7 @@ def get_room_information(room_id):
     try:
         return build_message("room", get_json_content("Rooms", room_id, "id")), 201
     except IOError:
-        return "This room does nor exist\n"
+        return jsonify({"message": "This room does not exist", "documentation": request.base_url}), 404
 
 
 @app.route('/create/movie', methods=['POST', 'GET'])
