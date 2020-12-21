@@ -44,7 +44,6 @@ def get_room_information(room_id):
 
 @app.route('/create/movie', methods=['POST', 'GET'])
 def create_movie():
-    print(request.method)
     if request.method == 'POST':
         file_data = get_json_content("Movies")
         json_data = json.loads(request.data)
